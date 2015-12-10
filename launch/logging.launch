@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="log_robot" type="logging" name="logging" output="screen" >
+		<rosparam file="$(find log_robot)/config/config.yaml"/>
+	</node>
+</launch>
